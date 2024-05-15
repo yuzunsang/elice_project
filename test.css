@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#main-menu,
+#sub-menu {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#main-menu > li {
+  float: left;
+  border: 1px solid red;
+  background-color: blueviolet;
+}
+
+#main-menu > li > a {
+  display: block;
+  padding: 8px 16px;
+  text-align: center;
+}
+
+#main-menu > li > a {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.85);
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  display: block;
+  padding: 12px 36px;
+  border-right: 1px solid rgba(0, 0, 0, 0.15);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+#sub-menu {
+  position: absolute;
+  background: navy;
+}
+
+#sub-menu > li {
+  padding: 16px 26px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+/* #sub-menu > li > a {
+
+} */
